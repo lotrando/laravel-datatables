@@ -2,18 +2,22 @@
 
 @section('content')
   <div class="container-fluid">
-    <span id="form_result"></span>
-    <table class="table-hover table-striped table" id="usertable">
-      <thead class="success text-gray">
-        <tr>
-          <th>ID</th>
-          <th>Name</th>
-          <th>Email</th>
-          <th>Department</th>
-          <th class="cent">Možnosti</th>
-        </tr>
-      </thead>
-    </table>
+    <div class="card mt-3">
+      <div class="card-body">
+        <span id="form_result"></span>
+        <table class="table-hover table-striped table" id="usertable">
+          <thead class="bg-success text-white">
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Department</th>
+              <th class="cent">Možnosti</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
   </div>
   <script>
     $(document).ready(function() {
